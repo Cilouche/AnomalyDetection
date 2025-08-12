@@ -32,4 +32,5 @@ def train(imagesFolder, epochs=50,batch_size=32):
                     shuffle= True,
                     validation_split=0.1)
     # Sauvgarde du modèle
+    
     autoencoder.save_weights('autoencoder.weights.h5')
