@@ -1,0 +1,19 @@
+# Crée un dossier d'env venv
+#python3.11 -m venv myenv
+
+# Active l'environnement virtuel
+#mon_env\Scripts\activate # CMD
+#.\mon_env\Scripts\Activate.ps1 # PowerShell
+
+# Mets pip à jour
+#python -m pip install --upgrade pip
+
+# Installe TensorFlow, OpenCV et NumPy
+tensorflow 
+opencv-python 
+numpy 
+matplotlib
+#mlflow
+
+#Exécute ton conteneur en mode interactif pour tester manuellement :
+#docker run -it --rm detection /bin/bash

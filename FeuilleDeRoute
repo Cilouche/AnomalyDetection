@@ -1,0 +1,6 @@
+1. Entrainnement
+2. Inférence
+3. Envoyer une alerte par mail en cas d'anomalie
+4. Serveur http pour visualiser l'image de sortie(avec la prédiction)
+5. Déploiement sur un Docker
+6. MLflow : tracker les paramètres, modele, et plus tard les déployer
